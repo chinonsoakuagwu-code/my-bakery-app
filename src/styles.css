@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: 'Poppins', sans-serif;*/
+    font-size: 16px;
+    background-color: #FFF8E7;
+    background-image: url('./assets/Cakey bg 2.png');
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    color: #55185D;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Raleway';
+    display: flex;
+    gap: 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container .btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #96323766;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+nav {
+    background-image: url('/src/assets/Nav Bar.png');
+    padding: 0 20px;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+}
+
+nav .nav-items {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f5dee1;
+}
+
+.nav-items ul li a {
+    color: #FFF8E7;
+}
+
+.nav-items ul li a:hover {
+    color: #FFD524;
+}
+
+.nav-items ul li a.active {
+    color: #FFD524;
+}
+
+.btn2{
+    background-color: #FFD524;
+    color: #55185D;
+    width: 250px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.85);
+    transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+}
+
+/*.cakecat{
+  background-color: #FFF8E7;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+  text-align: center;
+}*/
+.cakecat{
+  background-color: #FFF8E7;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.cakecat:hover {
+  transform: scale(1.05); /* Slight size increase */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
