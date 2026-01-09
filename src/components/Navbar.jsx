@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { ShoppingCart } from 'lucide-react'
+import logo from "../assets/logo 2.png"
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         <nav>
             <div className="nav-items container" style={{ marginTop: 0, }}>
                 <div className="logo">
-                    <img src="src\assets\logo 2.png" alt="Chevz Delite" style={{Width: '70px', height: '70px'}}/>
+                    <img src={logo} alt="Chevz Delite" style={{Width: '70px', height: '70px'}}/>
                 </div>
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
