@@ -8,6 +8,8 @@ import OurProducts from './pages/OurProducts'
 import Cart from './pages/Cart'
 import ProductDisplay from './components/ProductDisplay'
 import { useState } from 'react'
+import EndBar from './components/Endbar'
+
 
 function App() {
   
@@ -32,6 +34,7 @@ function App() {
         <Route path="/product/:productId" element={<ProductDisplay />} />
       </Routes>
 
+    <EndBar/>
     </>
   )
 }
